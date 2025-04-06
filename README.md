@@ -1,4 +1,4 @@
-Projeto: Jogo do Mario
+# Projeto: Jogo do Mario
 
 Este é um projeto simples de um site com um minigame inspirado no clássico jogo do Mario. Ele foi feito utilizando as linguagens HTML, CSS e JavaScript, com um layout visualmente atrativo e responsivo.
 
