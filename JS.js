@@ -46,13 +46,13 @@ const loop = setInterval(() => { /* Tira o texto do console para leitura (Usado 
 
     }
 
-    if (pipePosition < 50 && !counted) {
+    if (pipePosition < 50 && !counted) { /* Condicional que verifica a posição do cano (pipe) para o acrescimo do score*/
         score++;
         counted = true;
         scoreElement.innerText = `Score: ${score}`;
     }
 
-    if (pipePosition < -50) {
+    if (pipePosition < -50) { /* Reseta o counted após acrescimo */
         counted = false;
     }
 
